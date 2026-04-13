@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Noir & Brew — Specialty Café, Pune</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">
+      <span class="logo-icon">✦</span>
+      <span>Noir & Brew</span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Visit Us</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-grain"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Specialty Coffee · Koregaon Park, Pune
+      </div>
+      <h1>
+        <span class="h1-line">A Darker</span>
+        <span class="h1-line h1-italic">Roast.</span>
+        <span class="h1-line">A Quieter</span>
+        <span class="h1-line h1-italic">Corner.</span>
+      </h1>
+      <p class="hero-sub">Single-origin coffee, house-baked pastries, and a space designed for people who take their mornings seriously.</p>
+      <div class="hero-btns">
+        <a href="#menu" class="btn btn-gold">Explore Menu</a>
+        <a href="https://wa.me/919999999999?text=Hi%2C%20I'd%20like%20to%20reserve%20a%20table%20at%20Noir%20%26%20Brew." class="btn btn-ghost" target="_blank">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.554 4.118 1.528 5.855L.057 23.944l6.263-1.644A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.368l-.359-.213-3.718.976.992-3.621-.234-.372A9.818 9.818 0 112 12c0-5.414 4.404-9.818 9.818-9.818 5.415 0 9.819 4.404 9.819 9.818 0 5.415-4.404 9.818-9.819 9.818z"/></svg>
+          Reserve on WhatsApp
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+    <div class="hero-corner-text">EST. 2020 · PUNE</div>
+  </section>
+
+  <!-- MARQUEE STRIP -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>Single Origin Beans</span><span class="sep">✦</span>
+      <span>House Baked Daily</span><span class="sep">✦</span>
+      <span>Nitro Cold Brew</span><span class="sep">✦</span>
+      <span>Private Bookings</span><span class="sep">✦</span>
+      <span>Quiet Workspace</span><span class="sep">✦</span>
+      <span>Koregaon Park</span><span class="sep">✦</span>
+      <span>Single Origin Beans</span><span class="sep">✦</span>
+      <span>House Baked Daily</span><span class="sep">✦</span>
+      <span>Nitro Cold Brew</span><span class="sep">✦</span>
+      <span>Private Bookings</span><span class="sep">✦</span>
+      <span>Quiet Workspace</span><span class="sep">✦</span>
+      <span>Koregaon Park</span><span class="sep">✦</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="about-visual">
+        <div class="about-img-wrap">
+          <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=700&q=80" alt="Interior of Noir & Brew café" loading="lazy" />
+          <div class="about-img-badge">
+            <span class="badge-year">2020</span>
+            <span class="badge-label">Est. Pune</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-text">
+        <span class="section-tag">Our Story</span>
+        <h2>Built for the<br/><em>Slow Morning</em></h2>
+        <p>Noir & Brew opened in Koregaon Park in 2020 with a simple belief — that great coffee deserves great silence. We source micro-lot beans from Coorg and Araku Valley, roast in small batches, and serve every cup with the care it took to grow it.</p>
+        <p>No rush. No background noise. Just you, your work, and a cup that means something.</p>
+        <div class="about-stats">
+          <div class="stat-item">
+            <span class="stat-num">4.9★</span>
+            <span class="stat-label">Google Rating</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-num">60+</span>
+            <span class="stat-label">Menu Items</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-num">4 yrs</span>
+            <span class="stat-label">In Pune</span>
+          </div>
+        </div>
+        <a href="#contact" class="btn btn-outline-dark">Find Our Location</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="menu" id="menu">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What We Serve</span>
+        <h2>The Menu</h2>
+        <p class="section-sub">Everything made in-house. Nothing from a packet.</p>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <div class="menu-card-top">
+            <div class="menu-num">01</div>
+            <div class="menu-svg-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+            </div>
+          </div>
+          <h3>Filter & Pour-Over</h3>
+          <p>Araku Valley light roast, Coorg medium, and rotating single-origins. Brewed to order, never in advance.</p>
+          <div class="menu-card-footer">
+            <span class="price-tag">₹160 – ₹240</span>
+            <span class="menu-tag">Bestseller</span>
+          </div>
+        </div>
+        <div class="menu-card menu-card--dark">
+          <div class="menu-card-top">
+            <div class="menu-num">02</div>
+            <div class="menu-svg-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V12"/><path d="m5 12-.5-4.5A2 2 0 0 1 6.48 5.3L12 4l5.52 1.3a2 2 0 0 1 1.98 2.2L19 12"/><path d="M5 12H2a1 1 0 0 0-1 1v1a7 7 0 0 0 7 7h8a7 7 0 0 0 7-7v-1a1 1 0 0 0-1-1h-3"/></svg>
+            </div>
+          </div>
+          <h3>Cold Brew Bar</h3>
+          <p>18-hour cold brew, nitro cold brew on tap, and our signature salted caramel cold brew.</p>
+          <div class="menu-card-footer">
+            <span class="price-tag">₹200 – ₹280</span>
+            <span class="menu-tag menu-tag--gold">New</span>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-top">
+            <div class="menu-num">03</div>
+            <div class="menu-svg-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l19-9-9 19-2-8-8-2z"/></svg>
+            </div>
+          </div>
+          <h3>Baked In-House</h3>
+          <p>Butter croissants, almond danish, banana walnut loaf — fresh every morning by 8am.</p>
+          <div class="menu-card-footer">
+            <span class="price-tag">₹120 – ₹200</span>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-top">
+            <div class="menu-num">04</div>
+            <div class="menu-svg-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2h18"/><path d="M3 6h18"/><path d="M3 10h18"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h7"/><path d="M14 18h7"/><path d="M14 22h7"/></svg>
+            </div>
+          </div>
+          <h3>All-Day Plates</h3>
+          <p>Avocado toast, grain bowls, club sandwiches, and seasonal specials on weekends.</p>
+          <div class="menu-card-footer">
+            <span class="price-tag">₹240 – ₹380</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="experience" id="experience">
+    <div class="container">
+      <div class="exp-header">
+        <div>
+          <span class="section-tag section-tag--light">The Space</span>
+          <h2>Why People<br/><em>Come Back</em></h2>
+        </div>
+        <p class="exp-intro">We designed the space the way we brew our coffee — with intention. Every detail is here for a reason.</p>
+      </div>
+      <div class="exp-grid">
+        <div class="exp-card">
+          <div class="exp-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <div class="exp-card-body">
+            <h3>Open Until 10pm</h3>
+            <p>Late enough for after-dinner coffee. Early enough for your morning routine.</p>
+          </div>
+          <span class="exp-num">01</span>
+        </div>
+        <div class="exp-card">
+          <div class="exp-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <div class="exp-card-body">
+            <h3>Seats for Every Mood</h3>
+            <p>Solo window seats, communal tables, and a sheltered outdoor patio.</p>
+          </div>
+          <span class="exp-num">02</span>
+        </div>
+        <div class="exp-card">
+          <div class="exp-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <div class="exp-card-body">
+            <h3>No Minimum Order</h3>
+            <p>Order one coffee and stay three hours. We mean it — no pressure, ever.</p>
+          </div>
+          <span class="exp-num">03</span>
+        </div>
+        <div class="exp-card">
+          <div class="exp-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+          </div>
+          <div class="exp-card-body">
+            <h3>Private Event Space</h3>
+            <p>Book the entire café for product launches, team offsites, or intimate dinners.</p>
+          </div>
+          <span class="exp-num">04</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="container">
+      <span class="section-tag">Regulars</span>
+      <h2>What They Say</h2>
+      <div class="testi-grid">
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"I've tried every café in Koregaon Park. Noir & Brew is the only one I keep coming back to. The pour-over is exceptional."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">AM</div>
+            <div>
+              <span class="author-name">Aarav Mehta</span>
+              <span class="author-role">Product Designer, Pune</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card testi-card--featured">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"We booked the space for a team offsite — 12 people, half-day. Everything was handled perfectly. Great food, great coffee."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">PK</div>
+            <div>
+              <span class="author-name">Priya Kulkarni</span>
+              <span class="author-role">Founder, Techstart</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"The nitro cold brew alone is worth the visit. I work from here every Friday — it's become non-negotiable."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">RD</div>
+            <div>
+              <span class="author-name">Rohan Desai</span>
+              <span class="author-role">Freelance Developer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-inner">
+        <div class="contact-info">
+          <span class="section-tag">Come In</span>
+          <h2>Find Us in<br/><em>Koregaon Park</em></h2>
+          <ul class="contact-list">
+            <li>
+              <span class="contact-icon">📍</span>
+              <span>12, Lane 5, Koregaon Park, Pune – 411001</span>
+            </li>
+            <li>
+              <span class="contact-icon">🕘</span>
+              <span>Mon–Fri: 8am – 9pm &nbsp;·&nbsp; Sat–Sun: 8am – 10pm</span>
+            </li>
+            <li>
+              <span class="contact-icon">📞</span>
+              <a href="tel:+919999999999">+91 99999 99999</a>
+            </li>
+            <li>
+              <span class="contact-icon">📧</span>
+              <a href="/cdn-cgi/l/email-protection#741c1118181b341a1b1d06151a10160611035a1d1a"><span class="__cf_email__" data-cfemail="d8b0bdb4b4b798b6b7b1aab9b6bcbaaabdaff6b1b6">[email&#160;protected]</span></a>
+            </li>
+          </ul>
+          <div class="contact-btns">
+            <a href="https://wa.me/919999999999?text=Hi%2C%20I'd%20like%20to%20know%20more%20about%20Noir%20%26%20Brew." class="btn btn-whatsapp" target="_blank">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.554 4.118 1.528 5.855L.057 23.944l6.263-1.644A11.934 11.934 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.003-1.368l-.359-.213-3.718.976.992-3.621-.234-.372A9.818 9.818 0 112 12c0-5.414 4.404-9.818 9.818-9.818 5.415 0 9.819 4.404 9.819 9.818 0 5.415-4.404 9.818-9.819 9.818z"/></svg>
+              WhatsApp Us
+            </a>
+            <a href="tel:+919999999999" class="btn btn-outline-dark">Call Us</a>
+          </div>
+        </div>
+        <div class="map-wrap">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.6!2d73.8929!3d18.5362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDMyJzEwLjMiTiA3M8KwNTMnMzQuNiJF!5e0!3m2!1sen!2sin!4v1234567890"
+            width="100%" height="100%" style="border:0;"
+            allowfullscreen loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="logo-icon">✦</span>
+        <span class="footer-logo">Noir & Brew</span>
+      </div>
+      <nav class="footer-nav">
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Visit Us</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Noir & Brew · Koregaon Park, Pune</p>
+      <p>Designed & built by <a href="https://github.com/devv0311" target="_blank">Dev</a></p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
